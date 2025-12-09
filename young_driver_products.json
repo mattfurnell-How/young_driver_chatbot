@@ -1,0 +1,43 @@
+[
+    {
+      "id": "black_box",
+      "name": "Black Box Car Insurance",
+      "faqs": {
+        "policy_benefits": "Our Black Box Car Insurance uses a telematics device fitted to your car to understand how you drive. Careful drivers may benefit from lower premiums or renewal discounts, and your driving data can help us support you if you’re involved in an accident.",
+        "quote_requirements": "To get a quote, you’ll usually need: your full name and date of birth, driving licence details, vehicle registration or make and model, annual mileage estimate, details of any recent claims or convictions, and the address where the car is kept overnight.",
+        "claims_process": "If you need to make a claim, call our claims team as soon as it’s safe to do so. We’ll ask for your policy number, details of what happened, and any third party information. The black box data may help us understand the circumstances of the incident.",
+        "add_ons": "Optional add-ons can include: breakdown cover, courtesy car cover, legal expenses cover, windscreen cover and protected no claims discount, depending on your policy and eligibility."
+      }
+    },
+    {
+      "id": "learner_driver",
+      "name": "Learner driver Insurance",
+      "faqs": {
+        "policy_benefits": "Instead of a device fitted to your car, app-based telematics uses your smartphone to monitor your driving. You can track your driving score in the app and see tips to help improve safety and potentially reduce your premium over time.",
+        "quote_requirements": "To get a quote, you’ll need: your personal details, driving licence details, information about your car, and to confirm that you have a compatible smartphone which you’ll keep with you when driving.",
+        "claims_process": "In the event of a claim, contact our claims line. Your app data may be used to help understand what happened. Have your policy number, details of the incident, and any photos or third party details ready if possible.",
+        "add_ons": "Typical add-ons may include breakdown cover, courtesy car cover, personal accident cover and legal expenses cover. Availability can vary by product and insurer."
+      }
+    },
+    {
+      "id": "named_driver",
+      "name": "Named Young Driver Policy",
+      "faqs": {
+        "policy_benefits": "A Named Young Driver policy allows a young driver to be added as a named driver on a parent or guardian’s car, rather than holding their own standalone policy. This can help manage costs while still providing appropriate cover when they drive the vehicle.",
+        "quote_requirements": "We’ll usually need the main policyholder’s details, the young driver’s details, driving history for both, vehicle information and how the car is used. It’s important that we understand who drives the vehicle most often.",
+        "claims_process": "Claims are made under the main policy. If the named young driver is involved in an incident, the main policyholder should contact the claims team and provide full details, including who was driving at the time.",
+        "add_ons": "Depending on the main policy, add-ons may include breakdown, legal cover, courtesy car and protected no claims discount. Not all add-ons are available on all policies."
+      }
+    },
+    {
+      "id": "short_term_learner_driver",
+      "name": "Short-term Learner Driver Cover",
+      "faqs": {
+        "policy_benefits": "Learner Driver cover is short-term insurance designed for provisional licence holders practising in a friend or family member’s car. It can protect the vehicle owner’s no claims discount if there’s an incident while the learner is driving.",
+        "quote_requirements": "To get a quote, we’ll usually need the learner’s details, the supervising driver’s details, the vehicle registration, where the car is kept, and the length of cover required (for example 7, 30 or 90 days).",
+        "claims_process": "In the event of an accident while you’re practising, contact the claims team listed on your policy documents. Have your policy number, details of the supervising driver and what happened, plus any third party information.",
+        "add_ons": "Add-ons for learner policies are often limited, but may include breakdown cover or legal expenses cover, depending on the specific product."
+      }
+    }
+  ]
+  
