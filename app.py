@@ -1,36 +1,14 @@
-import streamlit as st 
-import requests
+import json
 import pandas as pd
-
-# ----------------------------------
-# CONFIG
-# ----------------------------------
-
-# While you're running FastAPI locally:
-YOUNG_DRIVER_API_URL = "http://127.0.0.1:8001/young-driver-products"
-# Later, when hosted: e.g. "https://api.yourdomain.com/young_driver_products"
-
-st.set_page_config(page_title="Young Driver Insurance Helper", layout="centered")
-
-st.title("🚗 Young Driver Insurance Helper")
-st.write(
-    "Choose a young driver product and what you'd like to know more about. "
-    "We'll explain it in simple terms."
-)
-
 
 # ----------------------------------
 # DATA FETCHING
 # ----------------------------------
 @st.cache_data(ttl=3600)
 def fetch_products():
-    resp = requests.get(YOUNG_DRIVER_API_URL, timeout=10)
-    resp.raise_for_status()
-    data = resp.json()
-    # Expecting a list of objects like:
-    # { "id": "...", "name": "...", "faqs": { ... } }
+    with open("young_driver_products.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
     return pd.DataFrame(data)
-
 
 try:
     df_products = fetch_products()
